@@ -4,10 +4,8 @@ import {
 } from 'react-native'
 import { Button } from 'react-native-elements'
 import LinearGradient from 'react-native-linear-gradient'
-import ImagePicker, { launchImageLibrary, launchCamera } from 'react-native-image-picker'
+import { launchImageLibrary, launchCamera } from 'react-native-image-picker'
 import Tflite from 'tflite-react-native';
-import { PermissionsAndroid } from 'react-native';
-
 
 let tflite = new Tflite();
 var modelFile = 'models/model.tflite'
